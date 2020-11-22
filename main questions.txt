@@ -3,6 +3,12 @@
 3. rotate an array to left side with nth number
 4. Remove duplicate strings of number in an array
 5. count number of repeated strings in the given string
+6. Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 
+and "fizzbuzz" at multiples of 3 and 5.
+7. Given two strings, return true if they are anagrams of one another.
+8. Switch 2 numbers without using third variable.
+
+
 
 
 

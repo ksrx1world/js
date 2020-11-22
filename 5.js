@@ -25,6 +25,7 @@ var obj= {};
 // console.log(obj);
 
 //method 3
+
 // a.split('').map((item)=> {
 //     if (item in obj){
 //         obj[item] += 1;
@@ -37,6 +38,19 @@ var obj= {};
 
 
 //method 4
+
+
+a.split('').map((item,index)=> {
+    if (item in obj){
+        obj[item] += 1;
+    }
+    else {
+        obj[item] = 1;
+    } 
+})
+console.log(obj);
+
+
 
 // for(let [index , item] of a.split('').entries()){
 //     if(a.indexOf(item) === index){
