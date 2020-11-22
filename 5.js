@@ -1,5 +1,5 @@
-// let a = "abcabcabclalalala";
-// var obj= {};
+let a = "abcabcabclalalala";
+var obj= {};
 
 // for (let b of a) {
 //     if (b in obj){
@@ -27,4 +27,11 @@
 // }
 // console.log(obj);
 
+//method 3
+
+a.map((item,index)=> {
+    if (item in obj){
+        obj[item] += 1;
+    } 
+})
 
