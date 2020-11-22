@@ -2,4 +2,7 @@
 2. rotate an array to right side with nth number
 3. rotate an array to left side with nth number
 4. Remove duplicate strings of number in an array
+5. count number of repeated strings in the given string
+
+
 
