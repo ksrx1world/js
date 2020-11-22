@@ -1,5 +1,5 @@
-// let a = "abcabcabclalalala";
-// var obj= {};
+let a = "abcabcabclalalala";
+var obj= {};
 
 // for (let b of a) {
 //     if (b in obj){
@@ -14,9 +14,6 @@
 
 //Method 2
 
-// let a = "my name is";
-// var obj= {};
-
 // for (let i=0; i<a.length; i++){
 //     if (a[i] in obj){
 //         obj[a[i]] += 1;
@@ -27,4 +24,26 @@
 // }
 // console.log(obj);
 
+//method 3
+// a.split('').map((item)=> {
+//     if (item in obj){
+//         obj[item] += 1;
+//     } 
+//     else{
+//         obj[item] = 1;
+//     }
+// })
+// console.log(obj);
 
+
+//method 4
+
+// for(let [index , item] of a.split('').entries()){
+//     if(a.indexOf(item) === index){
+//         obj[item] = 1;
+//     }
+//     else{
+//         obj[item] += 1;
+//     }
+// }
+// console.log(obj);
